@@ -2,10 +2,77 @@ footer {
     font-family: Avenir LT W05_35 Light, sans-serif;
     background-color: #2f3335;
     color: #f4f6f6;
+    height: 500px;
+    margin-top: 200px;
+
+    //display: flex;
+    vertical-align: middle;
 }
+
 footer .logo img.desktop {
     max-width: 186px;
 }
+
 .container {
-    max-width: 100%;
+    max-width: auto;
+}
+
+table, p {
+    color: #a2aaad;
+}
+
+table tr {
+    line-height: 2.5;
+    /* Adjust the value for desired spacing */
+    min-height: 50px;
+}
+
+table td {
+    width: 150px;
+    vertical-align: top;
+}
+
+table a {
+    all: inherit;
+    /* Inherit background, color, font */
+    font-size: smaller;
+    text-decoration: none;
+}
+
+table a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.inline-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    /* Using flexbox for better control */
+}
+
+.inline-list li {
+    margin-right: 20px;
+    /* Increased space between icons */
+}
+
+.inline-list li:last-child {
+    margin-right: 0;
+    /* Remove margin from last item */
+}
+
+.inline-list a {
+    color: white;
+    /* Set icon color to white */
+    text-decoration: none;
+    /* Remove underline from links */
+    font-size: 24px;
+    /* Adjust size as needed */
+}
+
+/* Optional: Add hover effect */
+.inline-list a:hover {
+    color: #cccccc;
+    /* Light grey on hover */
 }
